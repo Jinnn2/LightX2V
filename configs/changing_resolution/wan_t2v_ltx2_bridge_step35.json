@@ -20,6 +20,6 @@
         35
     ],
     "ltx2_cpu_offload": false,
-    "ltx2_vae_ckpt": "Lightricks/LTX-2/ltx-2-19b-distilled-fp8.safetensors",
-    "ltx2_upsampler_ckpt": "Lightricks/LTX-2/ltx-2-spatial-upscaler-x2-1.0.safetensors"
+    "ltx2_vae_ckpt": "/data/yongyang/Jin/Lightricks/LTX-2/ltx-2-19b-distilled-fp8.safetensors",
+    "ltx2_upsampler_ckpt": "/data/yongyang/Jin/Lightricks/LTX-2/ltx-2-spatial-upscaler-x2-1.0.safetensors"
 }
