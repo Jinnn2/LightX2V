@@ -1,0 +1,26 @@
+{
+    "infer_steps": 50,
+    "target_video_length": 81,
+    "text_len": 512,
+    "target_height": 512,
+    "target_width": 832,
+    "self_attn_1_type": "flash_attn3",
+    "cross_attn_1_type": "flash_attn3",
+    "cross_attn_2_type": "flash_attn3",
+    "sample_guide_scale": 6,
+    "sample_shift": 8,
+    "enable_cfg": true,
+    "cpu_offload": false,
+    "feature_caching": "NoCaching",
+    "changing_resolution": true,
+    "resolution_rate": [
+        0.5
+    ],
+    "changing_resolution_steps": [
+        35
+    ],
+    "wanupsampler_repo": "/data/yongyang/Jin/wanUpsampler",
+    "wanupsampler_ckpt": "/data/yongyang/Jin/wanUpsampler/outputs/wan_traj_upsampler_x2/latest.pt",
+    "wanupsampler_train_config": "/data/yongyang/Jin/wanUpsampler/configs/train_wan21_x2_512.yaml",
+    "wanupsampler_use_ema": true
+}
